@@ -55,7 +55,9 @@ public class Client {
                 System.out.println(i);
             }
         }
-        public static  void main
+        public static void main( String[] args) {
+            new Client("127.0.0.1", 5000);  // IP y puerto del servidor
+        }
 
 
     }
